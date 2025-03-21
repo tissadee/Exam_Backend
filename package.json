@@ -1,0 +1,19 @@
+{
+    "name": "crypto-exchange",
+    "version": "1.0.0",
+    "description": "Crypto Exchange Backend",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "sequelize": "^6.37.0",
+        "mysql2": "^3.9.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
